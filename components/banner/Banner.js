@@ -112,13 +112,9 @@ const Banner = () => {
       
         <Row className="mt-5">
           <Col lg="6" className="align-self-center">
-            <motion.h1 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            className="title">
-              WE BRING WEB3 CLOSER TO EARTH
-            </motion.h1>
+            <h1>
+            WE BRING WEB3 CLOSER TO EARTH
+            </h1>
             <a
               href="#contacts"
               className="btn btn-outline-light m-r-20 btn-md m-t-30 mt-5"

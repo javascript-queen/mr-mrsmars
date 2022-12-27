@@ -54,7 +54,7 @@ const About = (props) => {
           <Col className="text-center">
           <h1 className="title font-bold">ABOUT</h1>
           <h6 className="subtitle">
-                Hey there! We're a team of professionals in a new evolving cryptospace. Get to know each of us here. <br/><br/>
+                Hey there! We are a team of professionals in a new evolving cryptospace. Get to know each of us here. <br/><br/>
           </h6>
               <a
               type="button"
@@ -71,8 +71,7 @@ const About = (props) => {
             >
               <ModalHeader className="bg-black" toggle={toggle.bind(null)}>Technical Writing</ModalHeader>
               <ModalBody className="bg-black text-white">
-              Meet our technical writer Mr. Mars. Do you need to write a heap of gripping techie articles on Medium, or 
-                you company needs a whitepaper? Connect with Mr. Mars on his discord.
+              Meet our technical writer Mr. Mars. Do you need informative and enticing Medium articles, or a detailed whitepaper? Connect with Mr. Mars on his Twitter.
               </ModalBody>
               <ModalFooter className="bg-black">
                 <a href="https://twitter.com/DeFiDiscovered" target="_blank" rel="noreferrer" className="btn btn-outline-light" onClick={toggle.bind(null)}>
@@ -88,7 +87,7 @@ const About = (props) => {
               onClick={toggle1.bind(null)}
               className="btn btn-outline-light m-1"
             >
-              Web Design
+              WEB DESIGN
             </a>
             <Modal
               size="lg"
@@ -115,7 +114,7 @@ const About = (props) => {
               onClick={toggle2.bind(null)}
               className="btn btn-outline-light m-1"
             >
-              Graphic Design
+              GRAPHIC DESIGN
             </a>
             <Modal
               size="lg"

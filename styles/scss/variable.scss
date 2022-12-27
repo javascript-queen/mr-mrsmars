@@ -1,15 +1,9 @@
 // Variables - here you can change this global values of the UI Kit
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
-@font-face {
-  font-family: 'Agelast';
-  font-style: normal;
-  font-weight: 400;
-   src: url(/assets/font/Agelast-mLlAm.otf);
-}
+@import "@fontsource/open-sans-condensed";
 
-$bodyfont: "Agelast";
-$headingfont: 'Poiret One', cursive;
+$bodyfont: "Open Sans Condensed", sans-serif;
+$headingfont: "Open Sans Condensed", sans-serif;
 
 /*Theme Colors*/
 $bodycolor: #000000;

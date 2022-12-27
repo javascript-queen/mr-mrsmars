@@ -4,11 +4,10 @@ import Banner from "../banner/Banner";
 import Whitepapers from "./whitepapers";
 import PageForm from "./form";
 import About from "./about";
-import CallToAction from "../call-to-action/CallToAction";
-import TechnicalWriting from "../custom/sections/techwriting";
 import Websites from "./websites";
 import Articles from "./carousel";
 import ScrollToTop from "./ScrollUp"; 
+
 
 const AllComponents = () => {
   return (

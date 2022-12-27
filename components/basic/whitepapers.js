@@ -14,7 +14,7 @@ const Whitepapers = () => {
             <Col className="text-center">
               <h1 className="title font-bold">WHITEPAPERS</h1>
               <h6 className="subtitle">
-                Here you can check the whitepapers demos we created...
+                Here you can check the whitepaper demos we created...
               </h6>
             </Col>
           </Row>

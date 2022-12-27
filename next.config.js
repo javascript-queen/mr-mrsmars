@@ -4,6 +4,7 @@ const nextConfig = {
 }
 
 module.exports = {
+  optimizeFonts: false,
   reactStrictMode: true,
   webpack: (config) => {
     config.module.rules.push({

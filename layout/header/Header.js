@@ -14,6 +14,8 @@ import {
 import logo from "../../assets/images/logos/logo.png";
 import ConnectButton from "../../components/web3/ConnectButton"
 
+
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
@@ -63,8 +65,8 @@ const Header = () => {
                   </Link>
                 </NavItem>
               </Nav>
+              <ConnectButton onAddressChanged={address => {}}/>
             </Collapse>
-            <ConnectButton onAddressChanged={address => {}}/>
           </Navbar>
         </Container>
       </div>
